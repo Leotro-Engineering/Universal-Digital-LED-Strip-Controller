@@ -1,5 +1,6 @@
 # Universal Digital LED Strip Controller
 A controller module based on the ESP32-S3-MINI microcontroller which can control 5-12V digital LED strips based on chips such as:
+* WS2811
 * WS2812
 * WS2813
 * WS2815
