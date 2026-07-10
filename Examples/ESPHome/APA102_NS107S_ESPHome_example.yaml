@@ -34,7 +34,12 @@ wifi:
 
 captive_portal:
 
-
+switch:
+  - platform: gpio
+    name: "Power"
+    pin: GPIO21
+    restore_mode: RESTORE_DEFAULT_ON
+    
 sensor:
   - platform: adc
     pin: GPIO8
