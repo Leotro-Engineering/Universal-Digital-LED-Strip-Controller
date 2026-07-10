@@ -40,6 +40,12 @@ output:
     pin: GPIO34
     id: "backup"
 
+switch:
+  - platform: gpio
+    name: "Power"
+    pin: GPIO21
+    restore_mode: RESTORE_DEFAULT_ON
+
 sensor:
   - platform: adc
     pin: GPIO8
