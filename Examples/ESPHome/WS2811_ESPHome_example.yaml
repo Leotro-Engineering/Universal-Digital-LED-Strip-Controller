@@ -40,6 +40,7 @@ output:
     pin: GPIO34
     id: "backup"
 
+# Only V2 has a power switch on GPIO21
 switch:
   - platform: gpio
     name: "Power"
