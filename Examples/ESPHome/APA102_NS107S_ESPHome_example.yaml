@@ -34,6 +34,7 @@ wifi:
 
 captive_portal:
 
+# Only V2 has a power switch on GPIO21
 switch:
   - platform: gpio
     name: "Power"
